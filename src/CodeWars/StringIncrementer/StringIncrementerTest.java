@@ -5,10 +5,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 // TODO: Replace examples and use TDD by writing your own tests
 
-public class KataTest {
+public class StringIncrementerTest {
 
     private static void doTest(String str, String expected) {
-        assertEquals(expected, Kata.incrementString(str), "input: <"+str+">");
+        assertEquals(expected, StringIncrementer.incrementString(str), "input: <"+str+">");
     }
 
     @Test
