@@ -1,6 +1,6 @@
 package CodeWars.StringIncrementer;
 
-public class Kata {
+public class StringIncrementer {
     public static String incrementString(String str) {
         int len = str.length();
         int i = len - 1;
