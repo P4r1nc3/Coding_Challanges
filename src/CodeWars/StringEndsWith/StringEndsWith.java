@@ -1,6 +1,6 @@
 package CodeWars.StringEndsWith;
 
-public class Kata {
+public class StringEndsWith {
     public static boolean solution(String str, String ending) {
         if (ending.length() > str.length()) {
             return false;
