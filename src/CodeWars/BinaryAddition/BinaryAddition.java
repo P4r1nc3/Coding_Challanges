@@ -4,7 +4,7 @@
 
 package CodeWars.BinaryAddition;
 
-public class Kata{
+public class BinaryAddition {
     public static String binaryAddition(int a, int b){
         int dec = a + b;
         String bin = Integer.toBinaryString(dec);
