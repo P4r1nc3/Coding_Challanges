@@ -5,7 +5,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class KataTest {
+class BinaryAdditionTest {
 
     @ParameterizedTest(name = "a = {1}, b = {2}")
     @CsvSource(textBlock = """
@@ -17,6 +17,6 @@ class KataTest {
     """)
     @DisplayName("Sample tests")
     void sampleTests(String expected, int a, int b) {
-        assertEquals(expected, Kata.binaryAddition(a, b));
+        assertEquals(expected, BinaryAddition.binaryAddition(a, b));
     }
 }
